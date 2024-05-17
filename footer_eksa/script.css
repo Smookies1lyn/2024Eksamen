@@ -1,0 +1,65 @@
+/* ---- Basic CSS reset ------ */
+*,
+:after,
+:before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+/*--------------------------------------------
+-                                            -
+-                MAIN STYLING                -
+-                                            -
+---------------------------------------------*/
+
+/* ------ Body styling ----- */
+body{
+    background-color: #FEE7DF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+/* ------ h1 styling ----- */
+h1{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/*--------------------------------------------
+-                                            -
+-                   FOOTER                   -
+-                                            -
+---------------------------------------------*/
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+    font-weight: bold;
+}
+
+.footer_grafik{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}

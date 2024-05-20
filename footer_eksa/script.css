@@ -49,7 +49,8 @@ footer{
 /* Skaber plads mellem elementerne i footeren */
 footer section{
     margin-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+    width: 380px;
 }
 
 /* Gør overskrifterne i footeren bold */
@@ -62,4 +63,14 @@ footer section{
     flex-direction: row;
     column-gap: 20px;
     align-items: center;
+}
+
+#logo_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text_right{
+    text-align: right;
 }

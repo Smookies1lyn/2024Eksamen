@@ -1,0 +1,39 @@
+<header>
+        <a href="index.html"><img class="logo" src="img/logo.png"></a>
+
+<div class="dropdown-container">
+    <div class="dropdown">
+        <button class="dropbtn">ADOPTION</button>
+        <div class="dropdown-content">
+            <a href="#">Dyrene</a>
+            <a href="#">Alt om adoption</a>
+            <a href="#">Test: Hvilket dyr passer til dig?</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">DYR I NØD</button>
+        <div class="dropdown-content">
+            <a href="#">Vagtcentral 1812</a>
+            <a href="#">Nødpasning</a>
+        </div>
+    </div>
+    <div class="dropdown1">
+       <a href="OmOs.html" > <button class="dropbtn">PASNING OG PLEJE</button></a>
+        <div class="dropdown-content">
+         
+        </div>
+    </div>
+
+    <div class="dropdown1">
+        <a href="OmOs.html" > <button class="dropbtn">OM OS</button></a>
+         <div class="dropdown-content">
+          
+         </div>
+     </div>
+    
+    </div>
+
+
+
+
+    </header>

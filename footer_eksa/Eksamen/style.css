@@ -1,0 +1,1386 @@
+
+/* ---- Basic CSS reset ------ */
+*,
+:after,
+:before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.index-body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('forside\ baggrunddddddddd.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+
+}
+
+.body-priser{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('priser.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+}
+
+.body-OmOs{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('img/OM\ OS.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+}
+
+.body-404{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('img/404\ baggrund.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+}
+
+/*BAGGRUND*/
+
+
+
+
+/* HEADER*/
+
+
+.logo{
+position: absolute;
+width: 232px;
+height: 232px;
+left: 80px;
+top: 33px;
+z-index: 999;
+}
+
+/*-------Menu----------*/
+
+.dropdown-container {
+  display: flex;
+  gap: 60px; 
+  position: absolute;
+width: 143px;
+height: 30px;
+left: 441px;
+top: 77px;
+}
+
+/* Container for individual dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for dropdown button */
+.dropbtn {
+  background-color: transparent;
+  color:#801100;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 180px;
+  font-weight: 400px;
+}
+
+/* Container for dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 180px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* Style for links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 15px 15px 15px 15px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color:white;
+  border-radius: 15px 15px 0px 0px;
+}
+
+/*-------dropdown for sidste 2 punkter*/
+
+/* Change the background color of the dropdown button on hover */
+.dropdown1:hover .dropbtn {
+  background-color:white;
+  border-radius: 15px 15px 15px 15px;
+}
+
+
+
+
+.forsidebillede{
+position: absolute;
+width: 585px;
+height: 860px;
+left: 813px;
+top: 222px;
+}
+
+
+
+.overskrift{
+position: absolute;
+width: 908px;
+height: 74px;
+left: 59px;
+top: 450px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 74px;
+
+
+color: #801100;
+}
+
+
+.underoverskrift{
+position: absolute;
+width: 542px;
+height: 108px;
+left: 147px;
+top: 560px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 36px;
+
+color: #000000;
+text-align: center;
+}
+
+
+.knap1 {
+  position: absolute;
+  width: 286px;
+  height: 70px;
+  left: 284px;
+  top: 690px;
+  background: #801100;
+  border-radius: 30px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.knap1 p {
+  color: white;
+  font-weight: 500;
+}
+
+.knap1:hover{
+  background-color:#980E27;
+  cursor: pointer;
+}
+
+
+.underoverskrift2{
+position: absolute;
+width: 300x;
+height: 65px;
+left: 600px;
+top: 1163px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+
+color: #980E27;
+}
+
+.bokse{
+width: 100%;
+height: 400px;
+display: flex;
+justify-content: space-between;
+z-index: 999;
+margin-top: 1300px;
+
+}
+
+.boks1{
+box-sizing: border-box;
+
+position: relative;
+width: 326px;
+height: 373px;
+margin-left: 7%;
+z-index: 999;
+
+
+background: white;
+border: 2px solid #980E27;
+border-radius: 30px;
+
+}
+
+
+
+.boks2{
+box-sizing: border-box;
+position: absolute;
+width: 326px;
+height: 373px;
+margin-left: 39%;
+
+
+background: white;
+border: 2px solid #980E27;
+border-radius: 30px;
+
+}
+
+
+.boks3{
+box-sizing: border-box;
+position: absolute;
+width: 326px;
+height: 373px;
+margin-left: 70%;
+
+
+background: white;
+border: 2px solid #980E27;
+border-radius: 30px;
+  }
+
+.text1, .text2 {
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.text1 {
+    top: 90px; 
+    font-size: 60px;
+}
+
+.text2 {
+    top: 240px; 
+    font-size: 30px;
+    margin: 0px;
+}
+
+
+.rectangle{
+
+position: absolute;
+width: 100%;
+height: 564px;
+left: 0px;
+top: 3000px;
+background: #F9614D;
+}
+
+
+.logoirektangel{
+position: absolute;
+width: 560px;
+left: 455px;
+top: 3003px;
+z-index: 9;
+}
+
+
+
+.rectangle h1{
+  color: #801100;
+  position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 78%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.rectangle p{
+color: #801100;
+font-size: 48px;
+left: 37%; 
+position: absolute;
+margin-top: 50px;
+font-weight:600;
+z-index: 10;
+}
+
+
+.kattebillede{
+
+position: absolute;
+width: 50%;
+left: 0px;
+top: 3563px;
+}
+
+
+.kaninbillede{
+position: absolute;
+width: 50%;
+height: 578px;
+left: 50%;
+top: 3563px;
+}
+
+
+
+
+
+.footer-forside{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 1900px;
+
+  color: white;
+}
+
+.footer-oo{
+  position:absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+
+
+
+
+/*---------------OM OS----------------*/
+
+.bone{
+
+position: absolute;
+width: 98.69px;
+height: 26px;
+left: 1279px;
+top: 115px;
+}
+
+
+.rektangel-OmOs{
+  height: 350px;
+  width: 100%;
+  background-color:#D85C5A; 
+  margin-top: 300px;
+  position: absolute;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+}
+
+.rektangel-OmOs img{
+height: 354px;
+position: absolute;
+}
+
+.rektangel-OmOs p{
+font-size: 35px;
+position: absolute;
+color: #801100;
+}
+
+.flexbokse-OmOs {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  margin-top: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center; /* Aligns items vertically center */
+  padding: 0 9%;  
+}
+
+.flexboks {
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 10%;
+  display: flex; /* Added to enable flexbox */
+  flex-direction: column; /* Ensure the text is centered vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.flexboks h1{
+margin-top: 30px;
+color: #801100;
+}
+
+.flexboks p{
+padding: 20px;
+line-height: 1.5;
+font-size: 18px;
+  }
+
+.OOB1{
+
+position: absolute;
+width: 1100px;
+height: 732.88px;
+left: -122px;
+top: 1588px;
+z-index: -999;
+}
+
+.OOB2{
+position: absolute;
+width: 953px;
+height: 529px;
+left: 183px;
+top: 2440px;
+z-index: -999;
+}
+
+
+.OOB3{
+position: absolute;
+height: 545px;
+left: 630px;
+top: 3043px;
+z-index: -999;
+}
+
+
+.OMT1{
+position: absolute;
+width: 517px;
+height: 265px;
+left: 703px;
+top: 1300px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+
+.OMT2{
+position: absolute;
+width: 547px;
+height: 132px;
+left: 829px;
+top: 2208px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+
+.OMT3{
+position: absolute;
+width: 537px;
+height: 132px;
+left: 91px;
+top: 3382px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.dyr-overskrift{
+position: absolute;
+width: 600px;
+height: 65px;
+left: 453px;
+top: 1820px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 74px;
+
+
+color: white;
+
+}
+
+
+/*--------------Priser------------*/
+
+.Overskrift-priser{
+position: absolute;
+width: 640px;
+height: 148px;
+left: 436px;
+top: 292px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 74px;
+text-align: center;
+
+color: #801100;
+}
+
+.rektangel-priser{
+background-color:#D85C5A;
+position: absolute;
+height: 350px;
+width: 100%;
+margin-top: 640px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.rektangel-priser p{
+  align-self: center;
+display: flex;
+color: #801100;
+margin-left: 200px;
+font-size: 23px;
+}
+
+.overskriftpriser1{
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 181px;
+  color:#801100;
+}
+
+/*-----øverste bokse-----------*/
+
+.prisboks{
+position: absolute;
+
+width: 1144px;
+height: 1000px;
+left: 181px;
+top: 1200px;
+display: flex;
+flex-direction:column;
+gap: 30px;
+}
+
+
+.pris-hund{
+width: 100%;
+height: 200px;
+background-color: white;
+border-radius: 15px;
+display: flex;
+}
+
+.overskrift-hund{
+font-size: 20px;
+margin-left: 30px;
+margin-top: 40px;
+}
+
+.overskrift-krybdyr{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  }
+
+.overskrift-kat{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 300px;
+  }
+
+  .overskrift-gnaver{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 600px;
+    z-index: 99999;
+  }
+
+  .h1-under-g {
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    width: 838px;
+    height: 112px;
+    left: 230px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+  .h1-under {
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    width: 838px;
+    height: 112px;
+    left: 230px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.h1-under-k{
+  font-size: 15px;
+  font-weight:normal;
+  position: absolute;
+  width: 838px;
+  height: 112px;
+  left: 230px;
+  top: 260px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+  
+  
+  }
+
+.pris-hund p{
+  color: #801100;
+  font-weight: 400px;
+}
+.kort-streg{
+position: absolute;
+width: 161px;
+height: 0px;
+left: 120px;
+top: 100px;
+
+border: 1.5px solid #801100;
+transform: rotate(-90deg);
+}
+.kort-streg-kat{
+  position: absolute;
+  width: 161px;
+  height: 0px;
+  left: 120px;
+  top: 330px;
+  
+  border: 1.5px solid #801100;
+  transform: rotate(-90deg);
+  }
+  .kort-streg3{
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    left: 120px;
+    top: 835px;
+    
+    border: 1.5px solid #801100;
+    transform: rotate(-90deg);
+    }
+  .lang-streg1{
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    left: 120px;
+    top: 580px;
+    
+    border: 1.5px solid #801100;
+    transform: rotate(-90deg);
+    }
+
+.pris-kat{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  }
+
+  .pris-kat p{
+color: #801100;
+  }
+
+  .pris-gnaver{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    }
+
+    .pris-gnaver p {
+      color:#801100;
+    }
+
+    .pris-krybdyr{
+      width: 100%;
+      height: 200px;
+      background-color: white;
+      border-radius: 15px;
+      display: flex;
+      }
+
+      
+
+      .pris-krybdyr p{
+color: #801100;
+      }
+
+
+
+  .indeidiv{
+    height: 100%;
+    width: 200px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 0px 0px 15px;
+          }
+
+/*nummer 2 bokse*/
+
+.prisboks2{
+  position: absolute;
+  
+  width: 1144px;
+  height: 1000px;
+  left: 181px;
+  top: 2600px;
+  display: flex;
+  flex-direction:column;
+  gap: 30px;
+  }
+  
+  
+  .pris-hund2{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  }
+  
+  .overskrift-hund2{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  }
+  
+  .overskrift-krybdyr2{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    }
+  
+  .overskrift-kat2{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 300px;
+    }
+  
+    .overskrift-gnaver2{
+      font-size: 20px;
+      margin-left: 30px;
+      margin-top: 40px;
+      width: 600px;
+      z-index: 99999;
+    }
+  
+    .h1-under-g2 {
+      font-size: 15px;
+      font-weight: normal;
+      position: absolute;
+      width: 838px;
+      height: 112px;
+      left: 230px;
+      top: 50px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+  }
+  
+    .h1-under2 {
+      font-size: 15px;
+      font-weight: normal;
+      position: absolute;
+      width: 838px;
+      height: 112px;
+      left: 230px;
+      top: 50px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+  }
+  
+  .h1-under-k2{
+    font-size: 15px;
+    font-weight:normal;
+    position: absolute;
+    width: 838px;
+    height: 112px;
+    left: 230px;
+    top: 260px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    
+    }
+  
+  .pris-hund2 p{
+    color: #801100;
+    font-weight: 400px;
+  }
+  .kort-streg2{
+  position: absolute;
+  width: 161px;
+  height: 0px;
+  left: 120px;
+  top: 100px;
+  
+  border: 1.5px solid #801100;
+  transform: rotate(-90deg);
+  }
+  .kort-streg22{
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    left: 120px;
+    top: 330px;
+    
+    border: 1.5px solid #801100;
+    transform: rotate(-90deg);
+    }
+    .kort-streg32{
+      position: absolute;
+      width: 161px;
+      height: 0px;
+      left: 120px;
+      top: 835px;
+      
+      border: 1.5px solid #801100;
+      transform: rotate(-90deg);
+      }
+    .lang-streg12{
+      position: absolute;
+      width: 161px;
+      height: 0px;
+      left: 120px;
+      top: 580px;
+      
+      border: 1.5px solid #801100;
+      transform: rotate(-90deg);
+      }
+  
+  .pris-kat2{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    }
+  
+    .pris-kat2 p{
+  color: #801100;
+    }
+  
+    .pris-gnaver2{
+      width: 100%;
+      height: 250px;
+      background-color: white;
+      border-radius: 15px;
+      display: flex;
+      }
+  
+      .pris-gnaver2 p {
+        color:#801100;
+      }
+  
+      .pris-krybdyr2{
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        }
+  
+        
+  
+        .pris-krybdyr2 p{
+  color: #801100;
+        }
+  
+  
+  
+    .indeidiv2{
+      height: 100%;
+      width: 200px;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              border-radius: 15px 0px 0px 15px;
+            }
+
+  /*nummer 2 bokse slut*/
+
+.tekst-nederst-paa-side{
+position: absolute;
+width: 1144px;
+height: 308px;
+left: 180px;
+top: 3540px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #801100;
+
+
+}
+
+.tekst-midt-paa-side{
+position: absolute;
+width: 1144px;
+height: 112px;
+left: 184px;
+top: 2200px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #801100;
+}
+
+
+.tekst-midt-paa-side-2{
+position: absolute;
+width: 910px;
+height: 55px;
+left: 146px;
+top: 2452px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 55px;
+/* identical to box height */
+text-align: center;
+
+color: #801100;
+
+}
+
+
+
+
+/*-----karosel dyr-------*/
+
+.carousel-container {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 1300px;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 300px;
+    z-index: 99999;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    z-index: 99999;
+}
+
+.carousel-item {
+    min-width: calc(100% / 4);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    height: 500px;
+    margin: 0 50px;
+    border-radius: 20px;
+    color: #801100;
+    font-size: 20px;
+    z-index: 99999;
+}
+
+.carousel-item button{
+background-color: #FEE7DF;
+color: #801100;
+border-radius: 15px;
+width: 95%;
+height: 40px;
+font-size: 20px;
+z-index: 99999;
+margin: 30px;
+margin-left: 10px;
+}
+
+.carousel-item button:hover{
+background-color:#f1f1f1;
+cursor: pointer;
+z-index: 99999;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 1850px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px; /* Increased padding for better visibility */
+  cursor: pointer;
+  z-index: 99999;
+  border-radius: 50%; /* Circular shape */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  font-size: 20px; /* Increase font size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+
+}
+
+.left-arrow {
+    left: 0;
+    z-index: 99999;
+}
+
+.right-arrow {
+    right: 0;
+    z-index: 99999;
+}
+
+/*---------404-----------*/
+
+.pil1{
+
+position: absolute;
+width: 1015.42px;
+height: 374.47px;
+left: 321px;
+top: 184.53px;
+}
+
+
+.pil2{
+position: absolute;
+width: 40px;
+height: 58px;
+left: 319px;
+top: 229.5px;
+}
+
+.h1404{
+
+position: absolute;
+width: 231px;
+height: 175px;
+left: 570px;
+top: 265px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+line-height: 175px;
+
+text-align: center;
+
+color: #801100;
+
+}
+
+.p404{
+
+position: absolute;
+width: 764px;
+height: 37px;
+left: 340px;
+top: 440px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+
+text-align: center;
+
+color: #801100;
+}
+
+.footer-priser{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+margin-top: 4200px;
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+
+.footer-OMOS{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 3600px;
+
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+.footer-404{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+margin-top: 900px;
+  color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+footer section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 380px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+  font-weight: bold;
+}
+
+.footer_grafik{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#logo_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text_right{
+  text-align: right;
+}
+
+#BONE {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 480px;
+  top: 112px;
+  z-index: -1;
+  }
+
+  .BONE-OmOs{
+
+position: absolute;
+width: 98.69px;
+height: 26px;
+left: 1200px;
+top: 115px;
+
+
+  }

@@ -1,3 +1,6 @@
+/*
+                                                                                Quiz
+*/
 const quizWrappers = document.querySelectorAll('.quiz-wrapper');
 const alleSpoergsmaal = quizWrappers.length - 1; 
 let nuSpoergsmaal = 0;

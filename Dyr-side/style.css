@@ -1,0 +1,505 @@
+/* ------------------------------------------HEADER--------------------------------------*/
+
+.logo{
+    position: absolute;
+    width: 232px;
+    height: 232px;
+    left: 80px;
+    top: 33px;
+    z-index: 999;
+    }
+    
+    /*-----------------------------------------MENU-----------------------------------------*/
+    
+    .dropdown-container {
+      display: flex;
+      gap: 60px; 
+      position: absolute;
+    width: 143px;
+    height: 30px;
+    left: 441px;
+    top: 77px;
+    }
+    
+    /* Container for individual dropdown */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Style for dropdown button */
+    .dropbtn {
+      background-color: transparent;
+      color:#801100;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      width: 180px;
+      font-weight: 400px;
+    }
+    
+    /* Container for dropdown content */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      width: 180px;
+      border-radius: 0px 0px 10px 10px;
+    }
+    
+    /* Style for links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+      border-radius: 15px 15px 15px 15px;
+    }
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    /* Change the background color of the dropdown button on hover */
+    .dropdown:hover .dropbtn {
+      background-color:white;
+      border-radius: 15px 15px 0px 0px;
+    }
+    
+    /*-------dropdown for sidste 2 punkter*/
+    
+    /* Change the background color of the dropdown button on hover */
+    .dropdown1:hover .dropbtn {
+      background-color:white;
+      border-radius: 15px 15px 15px 15px;
+    }
+
+/* ------------------------------------------HEADER SLUT--------------------------------------*/
+
+
+
+
+/* ------------------------------------------BODY START--------------------------------------*/
+
+
+
+body {
+    background-image: url('img/HERMANBACKGROUND.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-top: 130px;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center; /* Centrerer containeren horisontalt */
+    align-items: center; /* Centrerer containeren vertikalt */
+    height: 100vh; /* Gør at body fylder hele viewport-højden */
+    
+}
+
+/* ------------------------------------------BODY SLUT--------------------------------------*/
+
+
+/* ------------------------------------------BONE START--------------------------------------*/
+#BONE {
+position: absolute;
+width: 100px;
+height: 20px;
+left: 480px;
+top: 112px;
+z-index: 1
+}
+
+/* ------------------------------------------BONE SLUT--------------------------------------*/
+
+
+
+/* --------------------------------------TILBAGE KNAP START--------------------------------------*/
+
+
+.TILBAGE_KNAP {
+    background-color: #801100; /* Baggrundsfarve */
+    color: white; /* Tekstfarve */
+    padding: 10px 20px; /* Indvendig margin (padding) */
+    text-align: center; /* Centrer tekst */
+    text-decoration: none; /* Fjern tekstdekoration (f.eks. understregning) */
+    display: inline-block; /* Vis som inline-blok */
+    font-size: 16px; /* Skriftstørrelse */
+    margin: 4px 2px; /* Udvendig margin */
+    cursor: pointer; /* Markør når man holder musen over knappen */
+    border-radius: 30px; /* Runde hjørner */
+    position: absolute;
+    top: 270px;
+    left: 250px;
+}
+
+/* Tilføj en hover-effekt */
+.TILBAGE_KNAP:hover {
+    background-color: #a01a1a; /* Mørkere rød farve ved hover */
+}
+
+
+
+/* ---------------------------------------TILBAGE KNAP SLUT--------------------------------------*/
+
+
+
+/* ---------------------------------------TILBAGE KNAP SLUT--------------------------------------*/
+
+
+/* -------------------DEN FØRSTE DEL AF SIDEN MED BILLEDE OG BIO START-------------------------------------*/
+
+.HERMAN_KING_NAVN  {
+    color: #801100;
+    top: 20px;
+    margin-bottom: 60px;
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Gør containeren vertikal */
+    align-items: center; /* Centrerer indholdet horisontalt */
+    background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+    padding: 20px;
+    border-radius: 10px; /* Valgfrit, hvis du vil have runde hjørner på containeren */
+    text-align: center; /* Centrerer teksten horisontalt */
+    line-height: 1.5; 
+    
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    width: 950px;
+}
+
+.left-image {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.left-image img {
+    width: 80px;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+.content {
+    flex: 1;
+    text-align: left; /* Sørg for at teksten i content er venstrejusteret */
+    margin-left: 50px;
+}
+
+
+
+/* Container stilarter */
+.container {
+    padding: 20px;
+}
+
+.container .LEJLA {
+    text-align: center;
+    font-size: 2em;
+}
+
+.container .content-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Stilarter for billedskift */
+.container .HERMAN_IMAGES {
+    position: relative;
+    width: 50%;
+   
+}
+
+.container .HERMAN_IMAGES img {
+    width: 100%;
+    height: 550px;
+    border-radius: 30px;
+    display: none; /* Skjul alle billeder som standard */
+}
+
+.container .HERMAN_IMAGES img.active {
+    display: block; /* Vis kun det aktive billede */
+}
+
+/* Pile til billedskift */
+.container .HERMAN_IMAGES .arrow {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+}
+
+#next {
+    right: 0;
+}
+
+#prev {
+    left: 0;
+}
+
+/* Pilens hover-effekt */
+.container .HERMAN_IMAGES .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+
+
+
+
+/* --------------------DEN FØRSTE DEL AF SIDEN MED BILLEDE OG BIO SLUT-------------------------------------*/
+
+
+
+
+/*-----------------------------------------IKONER START------------------------------------------*/
+
+
+.ikonerking {
+    width: 1000px;
+    height: 150px;
+    background-color: rgba(202, 74, 73, 1);
+    color:white ;
+    position: absolute;
+    margin-top: 1000px;
+    flex-direction: row; 
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+
+    text-align: center; /* Centrerer teksten horisontalt */
+
+
+}
+
+.MALEIKON img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.MALEIKON p{
+    margin-left: 60px;
+}
+
+
+.HUNDEIKON img{
+    width: 50px;
+    height: 50px;
+}
+
+.KAGE img{
+    width: 50px;
+    height: 50px;
+}
+
+.PELS img{
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.CHIPPED img{
+    width: 50px;
+    height: 50px;
+}
+
+.STREGER img{
+    margin-top: 20px;
+    height: 95px;
+}
+
+
+
+/*-----------------------------------------IKONER SLUT------------------------------------------*/
+
+
+
+/*------------------------------NEDERSTE BIO MED IKONER START------------------------------------------*/
+
+.ANDEN_BESKRIVELSE_HUSIKON{
+top: 1150px;
+position: absolute;
+height: 300px;
+display: flex;
+flex-direction: row; /* Gør containeren vertikal */
+align-items: center; /* Centrerer indholdet horisontalt */
+background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+margin-left: 260px;
+margin-right: 260px;
+line-height: 1.5; 
+   
+}
+
+.ANDEN_BESKRIVELSE_HUSIKON img{
+    margin-right: 60px;
+    }
+
+/* Sørg for at teksten i content er venstrejusteret */
+
+.ANDEN_BESKRIVELSE_HUNDBOLD{
+    top: 1350px;
+    position: absolute;
+    height: 300px;
+    display: flex;
+    flex-direction: row; /* Gør containeren vertikal */
+    align-items: center; /* Centrerer indholdet horisontalt */
+    background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+    margin-left: 260px;
+    margin-right: 260px;
+    line-height: 1.5; 
+       
+    }
+    
+    .ANDEN_BESKRIVELSE_HUNDBOLD img{
+        margin-right: 60px;
+        }
+
+
+/* --------------------Sørg for at teksten i content er venstrejusteret */
+
+.ANDEN_BESKRIVELSE_INFOIKON{
+    top: 1550px;
+    position: absolute;
+    height: 300px;
+    display: flex;
+    flex-direction: row; /* Gør containeren vertikal */
+    align-items: center; /* Centrerer indholdet horisontalt */
+    background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+    margin-left: 260px;
+    margin-right: 260px;
+    line-height: 1.5; 
+       
+    }
+    
+    .ANDEN_BESKRIVELSE_INFOIKON img{
+        margin-right: 60px;
+        }
+
+
+        /* Sørg for at teksten i content er venstrejusteret */
+
+.ANDEN_BESKRIVELSE_TELEFONIKON{
+    top: 1750px;
+    position: absolute;
+    height: 300px;
+    display: flex;
+    flex-direction: row; /* Gør containeren vertikal */
+    align-items: center; /* Centrerer indholdet horisontalt */
+    background-color: rgba(255, 255, 255, 0); /* Tilføj baggrundsfarve med gennemsigtighed */
+    margin-left: 260px;
+    margin-right: 260px;
+    line-height: 1.5; 
+       
+    }
+    
+    .ANDEN_BESKRIVELSE_TELEFONIKON img{
+        margin-right: 60px;
+        }
+
+
+
+/*--------------------------------NEDERSTE BIO MED IKONER SLUT------------------------------------------*/
+
+
+/* ------------------------------------MERE VIDEN KNAP START----------------------------------- */
+
+
+.MERE_VIDEN_KNAP {
+    background-color: #801100; /* Baggrundsfarve */
+    color: white; /* Tekstfarve */
+    padding: 20px 20px; /* Indvendig margin (padding) */
+    text-align: center; /* Centrer tekst */
+    text-decoration: none; /* Fjern tekstdekoration (f.eks. understregning) */
+    display: inline-block; /* Vis som inline-blok */
+    font-size: 16px; /* Skriftstørrelse */
+    margin: 4px 2px; /* Udvendig margin */
+    cursor: pointer; /* Markør når man holder musen over knappen */
+    border-radius: 30px; /* Runde hjørner */
+    position: absolute;
+    top: 2050px;
+}
+
+/* Tilføj en hover-effekt */
+.MERE_VIDEN_KNAP:hover {
+    background-color: #a01a1a; /* Mørkere rød farve ved hover */
+}
+
+
+
+
+/* ------------------------------------MERE VIDEN KNAP SLUT----------------------------------- */
+
+
+
+/* ---------------------------------------FOOTEREN----------------------------------- */
+
+.HERMAN_OG_KING {
+    margin-top: 3800px;
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+   
+    align-items: center;
+
+    color: white;
+}
+
+/* Skaber plads mellem elementerne i footeren */
+.HERMAN_OG_KING section{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 580px;
+}
+
+/* Gør overskrifterne i footeren bold */
+.footer_overskrift{
+    font-weight: bold;
+}
+
+.footer_grafik{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+
+#logo_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text_right{
+    text-align: right;
+}
